@@ -20,4 +20,18 @@ public class Class_02_DataType : MonoBehaviour
     public string character = "Gay"; // 文字串：文字或字元的集合，範例："Hello World"、"123"、"@#$%"
     public bool IsDead = false;    // 布林值：只有兩種狀態，範例：true(真)、false(假)
     public bool gameOver = true;   // 布林值：只有兩種狀態，範例：true(真)、false(假)
+
+    // 整數資料類型的其他種類：
+    public byte level = 50;      // byte：0~255 的整數，大小為 8 byte 
+    public uint coins = 9999;    // uint：0 以上的整數，大小為 32 byte 
+    public ulong exp = 50000000;  // ulong：0 以上的整數，大小為 64 byte
+    public short hp = 30000;    // short：-32,768~32,767 的整數，大小為 16 byte
+    public ushort mp = 45000;   // ushort：0~65,535 的整數，大小為 16 byte
+
+    // 字串與字元：
+    public string playerName = "MADAO"; // 字串：文字或字元的集合
+    public char grade = 'M';               // 字元：單一字元，使用單引號包住，範例：'A'、'中'、'@'
+
+    // 溢位測試：
+    // 例如：public sbyte damage = -130;   // sbyte：-128~127 的整數，大小為 8 byte
 }

@@ -154,6 +154,13 @@ MonoBehaviour:
   character: Gay
   IsDead: 0
   gameOver: 1
+  level: 50
+  coins: 9999
+  exp: 50000000
+  hp: 30000
+  mp: 45000
+  playerName: MADAO
+  grade: 77
 --- !u!4 &580149576
 Transform:
   m_ObjectHideFlags: 0
