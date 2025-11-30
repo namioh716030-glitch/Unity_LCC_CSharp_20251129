@@ -28,7 +28,7 @@ public class Practise_02_DataType : MonoBehaviour
     private bool isReward = true;
     // 使用範圍最大的浮點數 decimal，預設值為 1.23456789f
     // 骰到安全機率
-    // public decimal SafeProbability = 1.23456789m;
+    // public decimal SafeProbability = 1.23456789m; //Unity不支援decimal
     public double SafeProbability = 1.23456789; //安全機率：0-100%
     // 骰到安全獎勵，免除懲罰，預設非安全，私人
     private bool isSafe = false;
