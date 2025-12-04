@@ -119,7 +119,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &1145325719
+--- !u!1 &978924935
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,63 +127,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1145325720}
-  - component: {fileID: 1145325721}
-  m_Layer: 0
-  m_Name: Class_03_Operator
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1145325720
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1145325719}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.6837779, y: 0.32972115, z: 0.029762775}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1145325721
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1145325719}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2d28ab39a7c8104ca4193f524a03602, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lv: 1
-  weaponspeed: 20.5
-  Price: 10
-  weapon: "\u5315\u9996"
-  weaponlength: 1.5
-  itemDescription: "\u9019\u88E1\u662F\u9053\u5177\u7684\u63CF\u8FF0\uFF0C\u53EF\u4EE5\u5BEB\u5F88\u9577\u7684\u6587\u5B57\uFF0C\u53EF\u4EE5\u5BEB\u5F88\u9577\u7684\u6587\u5B57\uFF0C\u53EF\u4EE5\u5BEB\u5F88\u9577\u7684\u6587\u5B57\uFF0C\u53EF\u4EE5\u5BEB\u5F88\u9577\u7684\u6587\u5B57"
-  hp: 100
-  atack: 30.5
-  password: "\u6211\u662F\u5BC6\u78BC"
-  mp: 500
---- !u!1 &1193806282
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1193806285}
-  - component: {fileID: 1193806284}
-  - component: {fileID: 1193806283}
+  - component: {fileID: 978924938}
+  - component: {fileID: 978924937}
+  - component: {fileID: 978924936}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -191,21 +137,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1193806283
+--- !u!81 &978924936
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1193806282}
+  m_GameObject: {fileID: 978924935}
   m_Enabled: 1
---- !u!20 &1193806284
+--- !u!20 &978924937
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1193806282}
+  m_GameObject: {fileID: 978924935}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -250,16 +196,47 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!4 &1193806285
+--- !u!4 &978924938
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1193806282}
+  m_GameObject: {fileID: 978924935}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1317744758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1317744759}
+  m_Layer: 0
+  m_Name: Lessons_04_Method
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1317744759
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317744758}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.41024986, y: 1.304567, z: 0.0031071422}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -269,5 +246,5 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1193806285}
-  - {fileID: 1145325720}
+  - {fileID: 978924938}
+  - {fileID: 1317744759}
