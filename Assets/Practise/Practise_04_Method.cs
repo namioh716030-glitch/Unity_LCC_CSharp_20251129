@@ -12,5 +12,36 @@
 */
 public class Practise_04_Method : MonoBehaviour 
 {
-    
+    // 判斷是否通關
+    public bool CheckClearCondition(int collectedItems, int requiredItems = 10)
+    {
+        if (collectedItems >= requiredItems)
+        {
+            Debug.Log("✔ 通關成功！收集到 " + collectedItems + " / " + requiredItems);
+            return true;
+        }
+        else
+        {
+            Debug.Log("✖ 失敗！目前只有 " + collectedItems + " / " + requiredItems + "，請重來！");
+            return false;
+        }
+    }
+
+    // 測試用：遊戲開始時執行
+    void Start()
+    {
+        int playerItems = 8; // 模擬玩家收集的物品數量
+
+        if (CheckClearCondition(playerItems))
+        {
+            // 這裡可以呼叫下一關邏輯
+            Debug.Log("載入下一關...");
+        }
+        else
+        {
+            // 這裡可以呼叫重來邏輯
+            Debug.Log("重新開始關卡...");
+        }
+    }
+
 }

@@ -12,11 +12,14 @@ public class Prcatise_03_Operator : MonoBehaviour
 {
     private void Awake()
     {
-        float numberA = 6;
-        float numberB = 2;
-        float numberC = (1 + 2);
-        float numberD = (numberA / numberB * numberC);
+        int numberA = 6;
+        int numberB = 2;
+        int numberC = (1 + 2);
+        int numberD = (numberA / numberB * numberC);
+        int numberF = (numberA / (numberB * numberC));
 
         Debug.Log(numberD);
+        Debug.Log(numberF);
     }
+
 }
