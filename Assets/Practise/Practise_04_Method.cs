@@ -12,6 +12,7 @@
 */
 public class Practise_04_Method : MonoBehaviour 
 {
+    
     // 判斷是否通關
     public bool CheckClearCondition(int collectedItems, int requiredItems = 10)
     {
@@ -44,4 +45,26 @@ public class Practise_04_Method : MonoBehaviour
         }
     }
 
+    // KID 示範
+    private void Awake()
+    {
+        Debug.Log($"<color=#f93>True {ReturnTrue()}</color>");
+        Debug.Log($"<color=#f93>Flase {ReturnFalse()}</color>");
+    }
+    /// <summary>
+    /// 布林值 True
+    /// </summary>
+    /// <returns></returns>
+    private bool ReturnTrue()
+    {
+        return true;
+    }
+    /// <summary>
+    /// 布林值 Flase
+    /// </summary>
+    /// <returns></returns>
+    private bool ReturnFalse()
+    {
+        return false;
+    }
 }

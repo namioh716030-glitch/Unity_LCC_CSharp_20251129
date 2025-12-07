@@ -20,6 +20,11 @@ public class Prcatise_03_Operator : MonoBehaviour
 
         Debug.Log(numberD);
         Debug.Log(numberF);
+
+        //KID示範
+        int answer = (6 / 2 * (1 + 2));
+        Debug.Log($"<color=#f93>6/2*(1+2)= {answer}</color>");
+        Debug.Log(6 / 2 * (1 + 2));
     }
 
 }
