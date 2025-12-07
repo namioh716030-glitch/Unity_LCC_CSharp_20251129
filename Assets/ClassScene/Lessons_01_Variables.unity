@@ -148,13 +148,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed92779fa1721b741a4c21fb504cd109, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BlackMarketMerchants: "\u5E03X\u524D\u7537\u53CB"
-  hp: 100
-  price: 999
-  weapon: "\u5F80\u65E5\u4E4B\u5F71"
-  weaponDamage: 30000
+  merchantName: "\u5E03X\u524D\u7537\u53CB"
+  merchantLevel: 5
+  merchantHp: 100
+  itemPrice: 999
+  itemWeaponName: "\u5F80\u65E5\u4E4B\u5F71"
   playerName: "\u5E03X\u73FE\u7537\u53CB"
+  playerLevel: 30
   playerHp: 1500
+  playerCoin: 1000
 --- !u!4 &404671306
 Transform:
   m_ObjectHideFlags: 0
@@ -164,7 +166,7 @@ Transform:
   m_GameObject: {fileID: 404671304}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.6837779, y: 0.32972115, z: 0.029762775}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -301,7 +303,7 @@ Transform:
   m_GameObject: {fileID: 878491901}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.6837779, y: 0.32972115, z: 0.029762775}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
