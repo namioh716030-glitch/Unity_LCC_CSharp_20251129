@@ -211,8 +211,83 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2034310895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2034310897}
+  - component: {fileID: 2034310896}
+  - component: {fileID: 2034310898}
+  m_Layer: 0
+  m_Name: Class_06_1_Iteration
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2034310896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034310895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbc7f336d30ba6445bf8780e9d68eca1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2034310897
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034310895}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2034310898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034310895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab51adf2757ade143917cca53e5cd5a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  card1: "\u76AE\u5361\u4E18"
+  card2: "\u5C0F\u706B\u9F8D"
+  card3: "\u9435\u7532\u86F9"
+  cards:
+  - "\u76AE\u4E18"
+  - "\u5674\u706B\u9F8D"
+  - "\u5DF4\u5927\u8774"
+  deck1:
+  - 
+  - 
+  - 
+  - 
+  - 
+  deck2:
+  - "\u5999\u5A03\u7A2E\u5B50"
+  - "\u53EF\u9054\u9D28"
+  - "\u80D6\u4E01"
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 662125362}
+  - {fileID: 2034310897}
