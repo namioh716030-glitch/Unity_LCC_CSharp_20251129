@@ -12,7 +12,7 @@ namespace Lee
         public string card1 = "皮卡丘", card2 = "小火龍", card3 = "鐵甲蛹";
 
         // 使用陣列的寫法：
-        // 陣列：用來儲存多筆相同類型的資料
+        // 陣列：用來儲存多筆相同類型的資料 
         // 第一種：不指定值，透過 Unity 面板輸入
         // 修飾詞 資料類型 [ ] 陣列名稱;
         public string[] cards;
