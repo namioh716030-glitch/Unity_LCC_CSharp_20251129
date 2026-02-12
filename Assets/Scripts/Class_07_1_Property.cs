@@ -12,6 +12,13 @@ namespace Lee
 
         // 私人的變數：不允許外部讀取與寫入
         private float turnSpeed = 12.7f;
+
+        // 公開的屬性：允許存取
+        public float runSpeed {  get; set; }
+        // 私人的屬性：不允許存取
+        private float sprintSpeed {  get; set; }
+        // 公開的屬性：只有 get 代表唯讀 （只能讀取不能寫入）
+        public float jumpSpeed { get; }
     }
 
 }

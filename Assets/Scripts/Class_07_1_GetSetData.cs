@@ -18,6 +18,12 @@ namespace Lee
             // 設定另一個類別的資料
             property.moveSpeed = 7.7f;          // 可以設定公開變數
             // property.turnSpeed = 20.2f;      // 不可以設定私人變數
+
+            Debug.Log(property.runSpeed);       // 可以取得公開的屬性
+            // Debug.Log(property.sprintSpeed);    // 不可以取得私人的屬性
+
+            property.runSpeed = 50.3f;          // 可以設定有 set 的屬性
+            // property.jumpSpeed = 99.5f;      // 不可設定沒有 set 的屬性（唯讀）
         }
     }
 
